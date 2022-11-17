@@ -5,7 +5,7 @@ PSQL="psql -X --username=freecodecamp --dbname=bikes --tuples-only -c"
 echo -e "\n~~~~~ Bike Rental Shop ~~~~~\n"
 
 MAIN_MENU() {
-  if [[ $1 ]] #imput character
+  if [[ $1 ]] #This command will print the text in from of MAIN_MENU when a wrong imput is done.
   then
     echo -e "\n$1"
   fi
